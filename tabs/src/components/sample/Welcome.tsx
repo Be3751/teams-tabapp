@@ -5,6 +5,7 @@ import { EditCode } from "./EditCode";
 import { Deploy } from "./Deploy";
 import { Publish } from "./Publish";
 import { AddSSO } from "./AddSSO";
+import { InitTeamsFx } from "../../sso/InitTeamsFx";
 
 export function Welcome(props: { environment?: string }) {
   const { environment } = {
@@ -43,7 +44,7 @@ export function Welcome(props: { environment?: string }) {
           {selectedMenuItem === "local" && (
             <div>
               <EditCode />
-              <AddSSO />
+              <InitTeamsFx />
             </div>
           )}
           {selectedMenuItem === "azure" && (
