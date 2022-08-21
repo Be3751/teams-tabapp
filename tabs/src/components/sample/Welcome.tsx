@@ -4,7 +4,6 @@ import "./Welcome.css";
 import { EditCode } from "./EditCode";
 import { Deploy } from "./Deploy";
 import { Publish } from "./Publish";
-import { AddSSO } from "./AddSSO";
 import { InitTeamsFx } from "../../sso/InitTeamsFx";
 
 export function Welcome(props: { environment?: string }) {
