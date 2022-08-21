@@ -1,5 +1,5 @@
 {
-    "appName": "Enter",
+    "appName": "Teams-TabApp-Sample",
     "projectId": "b3fd72ba-5d9c-4106-bb56-189afe224213",
     "version": "2.1.0",
     "isFromSample": false,
@@ -9,7 +9,8 @@
         "hostType": "Azure",
         "azureResources": [],
         "capabilities": [
-            "Tab"
+            "Tab",
+            "TabSSO"
         ],
         "activeResourcePlugins": [
             "fx-resource-frontend-hosting",
@@ -17,7 +18,8 @@
             "fx-resource-local-debug",
             "fx-resource-appstudio",
             "fx-resource-cicd",
-            "fx-resource-api-connector"
+            "fx-resource-api-connector",
+            "fx-resource-aad-app-for-teams"
         ]
     },
     "programmingLanguage": "typescript"
