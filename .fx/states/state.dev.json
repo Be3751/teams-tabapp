@@ -1,0 +1,42 @@
+{
+    "solution": {
+        "teamsAppTenantId": "1f935bf3-4da9-4894-b38c-483c276930e2",
+        "subscriptionId": "b5a8ae07-1053-4197-9d47-58ff673f3ce3",
+        "subscriptionName": "Visual Studio Enterprise サブスクリプション",
+        "tenantId": "8eb1da3d-c357-448b-85db-a375f7bccdc2",
+        "needCreateResourceGroup": true,
+        "resourceGroupName": "teams-tabapp-sample",
+        "location": "Japan West",
+        "resourceNameSuffix": "0200c4",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "1f935bf3-4da9-4894-b38c-483c276930e2",
+        "teamsAppId": "162bbf54-2cad-49ff-9da0-f76c53643f4a",
+        "teamsAppUpdatedAt": 1661064818325
+    },
+    "fx-resource-identity": {
+        "identityName": "enterdevab61c4",
+        "identityResourceId": "/subscriptions/b5a8ae07-1053-4197-9d47-58ff673f3ce3/resourceGroups/teams-tabapp-sample/providers/Microsoft.ManagedIdentity/userAssignedIdentities/enterdevab61c4",
+        "identityClientId": "35a2e15f-a000-4911-a306-0df6126d358f"
+    },
+    "fx-resource-aad-app-for-teams": {
+        "clientId": "8c1ad273-6a1a-41cb-aee6-b29fc5f19492",
+        "clientSecret": "{{fx-resource-aad-app-for-teams.clientSecret}}",
+        "objectId": "a1d13da5-b3e5-4739-8444-07cbfad45546",
+        "oauth2PermissionScopeId": "ef9135fe-169b-4b63-a5c8-82ff8791e25a",
+        "tenantId": "1f935bf3-4da9-4894-b38c-483c276930e2",
+        "oauthHost": "https://login.microsoftonline.com",
+        "oauthAuthority": "https://login.microsoftonline.com/1f935bf3-4da9-4894-b38c-483c276930e2",
+        "applicationIdUris": "api://enterdevab61c4tab.z31.web.core.windows.net/8c1ad273-6a1a-41cb-aee6-b29fc5f19492",
+        "frontendEndpoint": "https://enterdevab61c4tab.z31.web.core.windows.net"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "enterdevab61c4tab.z31.web.core.windows.net",
+        "endpoint": "https://enterdevab61c4tab.z31.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/b5a8ae07-1053-4197-9d47-58ff673f3ce3/resourceGroups/teams-tabapp-sample/providers/Microsoft.Storage/storageAccounts/enterdevab61c4tab"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}
