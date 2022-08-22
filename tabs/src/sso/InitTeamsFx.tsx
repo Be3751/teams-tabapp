@@ -3,6 +3,7 @@
 
 import { useTeamsFx } from "@microsoft/teamsfx-react";
 import { GetUserProfile } from "./GetUserProfile";
+import { GetUserMessage } from "./GetUserMessage";
 
 export function InitTeamsFx() {
   // For usage of useTeamsFx(), please refer to: https://www.npmjs.com/package/@microsoft/teamsfx-react#useTeamsfx.
@@ -14,7 +15,7 @@ export function InitTeamsFx() {
       {!loading && error && (
         <div className="error">Failed init TeamsFx. Please try again later.</div>
       )}
-      {!loading && teamsfx && <GetUserProfile teamsfx={teamsfx} />}
+      {!loading && teamsfx && <GetUserMessage teamsfx={teamsfx} />}
     </div>
   );
 }
